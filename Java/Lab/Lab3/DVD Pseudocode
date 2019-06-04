@@ -1,0 +1,60 @@
+/*Name: Jaehyung Kim
+ID Number: 47248972
+Lab 3-Fall 2018*/
+
+Initialize DVD's price from supplier for 9
+Initailize DVD's price to customer for 10
+Initailize current number of DVDs for 10
+Initailize cash on hand for 100
+
+Prompt the user to enter the option
+Input the first option (possibly the sentinel)
+
+While the user has not yet entered the sentinel
+  If the option is equal to 1
+  Prompt the user to enter the numbers of DVDs to buy
+  Input the numbers of DVDs to buy
+  Add the numbers of newly purchased DVDs into the current number of DVDs
+  Subtract the purchased DVD's price to buy from cash on hand
+  Print the number of DVDs that we have
+  Print the cash that we have
+
+  Prompt the user to enter the option
+  Input the first option (possibly the sentinel)
+
+    If there is not enough money to buy the newly DVDs
+    Print "You do not have enough money for this transaction”
+
+  If the option is equal to 2
+  Prompt the user to enter the numbers of DVDs to sell
+  Input the numbers of DVDs to sell
+    If the number of DVDs to sell is less than or equal to the current number of DVDs
+    Subtract the number of selling DVDs from the current number of DVDs
+    Add the amount of earned money to the cash on hand
+    Print the number of DVDs that we have
+    Print the cash that we have
+    Prompt the user to enter the option
+    Input the first option (possibly the sentinel)
+
+    If there is not enough the Number of DVDs to see
+    Print “You do not have enough DVDs for this transaction”
+
+  If the option is equal to 3
+  Print “Numberof DVDs: the current number of DVDs”
+  Prompt the user to enter the option
+  Input the first option (possibly the sentinel)
+
+  If the option is equal to 4
+  Print “Cash available: cash on hand”
+  Prompt the user to enter the option
+  Input the first option (possibly the sentinel)
+
+  If the user enters options that is not 1, 2, 3, 4 or 9
+  Print “This option is not acceptable”
+
+  Prompt the user to enter the option
+  Input the first option (possibly the sentinel)
+  
+
+While the user entered the sentinel number 9
+  Print “Thank you for shopping with us!  Please return soon!”
