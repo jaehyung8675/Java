@@ -1,7 +1,5 @@
 # Course-Java
 
-Lab program coding for CSE1341
-
 1. Syntax Errors and Productivity Software
 2. CompoundInterest, Fibonacci, Triangle, UnitConversion, WorldPopulation
 3. DVD Machine
